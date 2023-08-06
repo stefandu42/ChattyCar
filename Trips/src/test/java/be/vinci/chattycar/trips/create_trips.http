@@ -1,0 +1,125 @@
+POST http://localhost:9005/trips
+Content-Type: application/json
+
+{
+  "origin": {
+    "latitude": 52.142598,
+    "longitude": 8.548796
+  },
+  "destination": {
+    "latitude": 50.849372,
+    "longitude": 4.451009
+  },
+  "departure": "2023-10-25",
+  "driver_id": 12,
+  "available_seating": 2
+}
+
+###
+POST http://localhost:9005/trips
+Content-Type: application/json
+
+{
+"origin": {
+"latitude": 52.142598,
+"longitude": 8.548796
+},
+"destination": {
+"latitude": 28.548963,
+"longitude": 5.879625
+},
+"departure": "2023-10-25",
+"driver_id": 2,
+"available_seating": 2
+}
+
+###
+POST http://localhost:9005/trips
+Content-Type: application/json
+
+{
+  "origin": {
+    "latitude": 50.254789,
+    "longitude": 54.253698
+  },
+  "destination": {
+    "latitude": 54.369874,
+    "longitude": 10.256987
+  },
+  "departure": "2022-12-05",
+  "driver_id": 2,
+  "available_seating": 25
+}
+
+###
+POST http://localhost:9005/trips
+Content-Type: application/json
+
+{
+"origin": {
+"latitude": 52.142598,
+"longitude": 8.548796
+},
+"destination": {
+"latitude": 2.849372,
+"longitude": 8.451009
+},
+"departure": "2022-10-25",
+"driver_id": 12,
+"available_seating": 2
+}
+
+###
+POST http://localhost:9005/trips
+Content-Type: application/json
+
+{
+  "origin": {
+    "latitude": 52.142598,
+    "longitude": 8.548796
+  },
+  "destination": {
+    "latitude": 50.849372,
+    "longitude": 4.451009
+  },
+  "departure": "2022-10-25",
+  "driver_id": 13,
+  "available_seating": 4
+}
+
+###
+
+POST http://localhost:9005/trips
+Content-Type: application/json
+
+{
+  "origin": {
+    "latitude": 50.849372,
+    "longitude": 4.451009
+  },
+  "destination": {
+    "latitude": 50.849372,
+    "longitude": 4.451009
+  },
+  "departure": "2022-10-25",
+  "driver_id": 14,
+  "available_seating": 4
+}
+
+###
+POST http://localhost:9005/trips
+Content-Type: application/json
+
+{
+  "origin": {
+    "latitude": 52.142598,
+    "longitude": 8.548796
+  },
+  "destination": {
+    "latitude": 50.849372,
+    "longitude": 4.451009
+  },
+  "departure": "2022-10-25",
+  "driver_id": 5,
+  "available_seating": 0
+}
